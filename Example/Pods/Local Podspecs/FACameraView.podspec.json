@@ -1,0 +1,27 @@
+{
+  "name": "FACameraView",
+  "version": "0.1.0",
+  "summary": "A short description of FACameraView.",
+  "homepage": "https://github.com/fadizant/FACameraView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fadizant": "fadizant@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fadizant/FACameraView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FACameraView/Classes/**/*",
+  "resource_bundles": {
+    "FACameraView": [
+      "FACameraView/Assets/*.xcassets",
+      "FACameraView/Classes/View/*.xib"
+    ]
+  }
+}

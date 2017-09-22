@@ -7,7 +7,14 @@
 //
 
 @import UIKit;
+#import "CameraViewController.h"
 
-@interface FAViewController : UIViewController
+@interface FAViewController : UIViewController{
+    NSMutableArray<FAImageLibraryItem*>* attachments;
+}
+
+
+@property (weak, nonatomic) IBOutlet ImagesReview *Review;
+@property (weak, nonatomic) IBOutlet UIButton *removeButton;
 
 @end

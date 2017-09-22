@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D27B8A995200675D9D7FAF /* Pods_FACameraView_Example_FACameraView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F3AB2121BA692A7903A4C6 /* Pods_FACameraView_Example_FACameraView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3FEB3708FC61AF8815D37C1D /* Pods_FACameraView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FACameraView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		456EA15E1E6264A30AAB4B73 /* FACameraView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FACameraView.podspec; path = ../FACameraView.podspec; sourceTree = "<group>"; };
+		456EA15E1E6264A30AAB4B73 /* FACameraView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FACameraView.podspec; path = ../FACameraView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FACameraView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FACameraView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +59,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		65F3AB2121BA692A7903A4C6 /* Pods_FACameraView_Example_FACameraView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FACameraView_Example_FACameraView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8666414DFC7DD55EE9A1ADBB /* Pods_FACameraView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FACameraView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		954743E0DE861BD0BF123EE7 /* Pods-FACameraView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Example/Pods-FACameraView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC117FE83F48DE19B620A152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC117FE83F48DE19B620A152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C04523DFEA9DE60D10BCAA03 /* Pods-FACameraView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Tests/Pods-FACameraView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C4479FE4D8CD70BFF96B7FFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C4479FE4D8CD70BFF96B7FFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CECF51F6557F0FF56B7C0642 /* Pods-FACameraView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Example/Pods-FACameraView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E26BB3FBC179983B556F1AA0 /* Pods-FACameraView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Tests/Pods-FACameraView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F654F17D7832ADAEBC0E9F1B /* Pods-FACameraView_Example-FACameraView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Example-FACameraView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Example-FACameraView_Tests/Pods-FACameraView_Example-FACameraView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D51DDDCC3E492BEA088C11 /* Pods-FACameraView_Example-FACameraView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACameraView_Example-FACameraView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FACameraView_Example-FACameraView_Tests/Pods-FACameraView_Example-FACameraView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				BFA106D774D1EE1959ED5B71 /* Pods_FACameraView_Tests.framework in Frameworks */,
+				23D27B8A995200675D9D7FAF /* Pods_FACameraView_Example_FACameraView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +107,8 @@
 				954743E0DE861BD0BF123EE7 /* Pods-FACameraView_Example.release.xcconfig */,
 				E26BB3FBC179983B556F1AA0 /* Pods-FACameraView_Tests.debug.xcconfig */,
 				C04523DFEA9DE60D10BCAA03 /* Pods-FACameraView_Tests.release.xcconfig */,
+				F654F17D7832ADAEBC0E9F1B /* Pods-FACameraView_Example-FACameraView_Tests.debug.xcconfig */,
+				F6D51DDDCC3E492BEA088C11 /* Pods-FACameraView_Example-FACameraView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				3FEB3708FC61AF8815D37C1D /* Pods_FACameraView_Example.framework */,
 				8666414DFC7DD55EE9A1ADBB /* Pods_FACameraView_Tests.framework */,
+				65F3AB2121BA692A7903A4C6 /* Pods_FACameraView_Example_FACameraView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +258,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fadizant;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G88XKG2R6D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -303,16 +314,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Tests/Pods-FACameraView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Example-FACameraView_Tests/Pods-FACameraView_Example-FACameraView_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FACameraView/FACameraView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FACameraView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Tests/Pods-FACameraView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Example-FACameraView_Tests/Pods-FACameraView_Example-FACameraView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		38E8B82678C04E97994D3640 /* [CP] Check Pods Manifest.lock */ = {
@@ -344,7 +355,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FACameraView_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FACameraView_Example-FACameraView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,7 +374,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Tests/Pods-FACameraView_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACameraView_Example-FACameraView_Tests/Pods-FACameraView_Example-FACameraView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F33E911DBF36BE8E2BDE95F /* [CP] Embed Pods Frameworks */ = {
@@ -536,6 +547,7 @@
 			baseConfigurationReference = CECF51F6557F0FF56B7C0642 /* Pods-FACameraView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G88XKG2R6D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FACameraView/FACameraView-Prefix.pch";
 				INFOPLIST_FILE = "FACameraView/FACameraView-Info.plist";
@@ -551,6 +563,7 @@
 			baseConfigurationReference = 954743E0DE861BD0BF123EE7 /* Pods-FACameraView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G88XKG2R6D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FACameraView/FACameraView-Prefix.pch";
 				INFOPLIST_FILE = "FACameraView/FACameraView-Info.plist";
@@ -563,7 +576,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E26BB3FBC179983B556F1AA0 /* Pods-FACameraView_Tests.debug.xcconfig */;
+			baseConfigurationReference = F654F17D7832ADAEBC0E9F1B /* Pods-FACameraView_Example-FACameraView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -587,7 +600,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C04523DFEA9DE60D10BCAA03 /* Pods-FACameraView_Tests.release.xcconfig */;
+			baseConfigurationReference = F6D51DDDCC3E492BEA088C11 /* Pods-FACameraView_Example-FACameraView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
