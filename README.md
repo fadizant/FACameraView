@@ -14,6 +14,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 <img src="http://www.m5zn.com/newuploads/2017/09/22/gif//9f74ffe7685c876.gif"/>
 <br>
 <img src="http://www.m5zn.com/newuploads/2017/09/22/gif//31296306bf8a700.gif"/>
+<br>
+
+```ruby
+    CameraViewController *cam = [CameraViewController new];
+    cam.max = 3;//maximum number of images
+    cam.didDismiss = ^void(NSMutableArray<FAImageLibraryItem*>* images)
+    {
+        //your code here
+    };
+    
+    [self presentViewController:cam animated:YES completion:^{
+    }];
+```
 
 ## Requirements
 
